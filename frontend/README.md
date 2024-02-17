@@ -1,0 +1,1 @@
+This is a cafe application project for a restaurant.
