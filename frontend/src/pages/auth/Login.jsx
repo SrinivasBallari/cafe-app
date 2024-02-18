@@ -1,15 +1,15 @@
 import registerPageImage from '../../assets/images/registerPageImage.png'
 import yumLogo from '../../assets/images/yumLogo.png'
-import RegisterationForm from "../../components/RegisterationForm.jsx"
+import LoginForm from '../../components/LoginForm.jsx'
 
-const Register = () => {
+const Login = () => {
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-10 bg-teal-100 h-screen w-screen flex justify-end">
 
             <div className="lg:col-span-4 flex flex-col items-center justify-center ">
                 <img src={yumLogo} alt="loading" width={170} height={170} className='pb-8'/>
-                <RegisterationForm/>     
+                <LoginForm/>     
             </div>
             
             <div className="col-span-6 relative hidden lg:block">
@@ -20,4 +20,4 @@ const Register = () => {
     )
 }
 
-export default Register;
+export default Login;
