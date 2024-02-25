@@ -5,7 +5,7 @@ import LoginForm from '../../components/LoginForm.jsx'
 const Login = () => {
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-10 bg-teal-100 h-screen w-screen flex justify-end">
+        <div className="grid grid-cols-1 lg:grid-cols-10 bg-gradient-to-r from-teal-100 h-screen w-screen flex justify-end">
 
             <div className="lg:col-span-4 flex flex-col items-center justify-center ">
                 <img src={yumLogo} alt="loading" width={170} height={170} className='pb-8'/>
