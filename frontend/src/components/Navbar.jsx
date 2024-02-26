@@ -1,15 +1,14 @@
 import { useState } from "react";
 import yumLogo from "../assets/images/yumLogo.png";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 const Navbar = () => {
-    const location = useLocation();
     const [isHamActive, toggleHam] = useState(false);
     const [isMobileSearchActive, toggleMobileSearchState] = useState(false);
 
     return (
         <>
-            <div className="flex justify-between p-5 top-0 sticky border-b-2">
+            <div className="flex justify-between p-5 sticky top-0 border-b-2">
                 <div className="lg:hidden pt-4 size-5 pl-3">
                     <button onClick={() => toggleHam(!isHamActive)}>
                         {!isHamActive ? (
@@ -81,7 +80,7 @@ const Navbar = () => {
                     <input
                         type="text"
                         placeholder="Search..."
-                        className="hidden md:block rounded-full w-64 focus:outline-none font-md  pl-4 bg-teal-100 ring-2 ring-teal-300"
+                        className="hidden md:block rounded-full w-64 focus:outline-none font-md  pl-4 bg-teal-100 ring-2 ring-teal-300 py-1"
                     />
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

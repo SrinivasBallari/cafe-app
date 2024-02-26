@@ -6,9 +6,9 @@ import homePageArrowImage from '../assets/images/homePageArrowImage.png'
 const Home = () => {
     return (
         <>
-            <div className="grid grid-cols-2 justify-items-center bg-gradient-to-b from-teal-100">
-                <div className="py-20 px-10">
-                    <div className="bg-teal-100 text-teal-600 rounded-full w-40 p-1 text-center mb-3">#Special Food 🍕</div>
+            <div className="flex flex-col justify-around xl:flex-row bg-gradient-to-b from-teal-100">
+                <div className="py-20 px-10 text-center xl:text-start">
+                    <div className="bg-teal-200 text-teal-600 rounded-full w-40 p-1 mb-5 inline-flex justify-center">#Special Food 🍕</div>
                     <div className="text-6xl font-bold flex-col space-y-4 mb-4">
                         <div>We Offer Delicious</div>
                         <div><span className="text-teal-600">Food</span> And Quick</div>
@@ -23,11 +23,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='py-8'>
-                        <button className='w-32 bg-teal-200 rounded-full text-base text-center py-3'>
+                        <button className='w-32 bg-teal-200 rounded-full text-base text-center py-3 '>
                             Order Now
                         </button>
                     </div>
-                    <div className='flex'>
+                    <div className='flex justify-center xl:justify-start'>
                         <div className='flex pr-5'>
                             <div className='h-12 w-12'>
                                 <img src={homePageRandomGuy} alt="loading" className='rounded-full w-full h-full' />
@@ -45,14 +45,14 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-20 px-10'>
+                <div className='py-20 px-10 flex justify-center'>
                     <div className='flex'>
                         <img src={homePageGirlImage} alt="loading" />
-                        <div className='flex flex-col justify-end'>
+                        <div className='flex flex-col justify-end hidden 2xl:flex'>
                             <div>
                                 <img src={homePageArrowImage} alt="loading" className='object-scale-down' />
                             </div>
-                            <div className='flex rounded-full w-48 items-center p-2 bg-white'>
+                            <div className='flex rounded-full w-48 items-center p-2'>
                                 <div className='h-12 w-12 mr-2'>
                                     <img src={homePageRandomGuyTwo} alt="loading" className='rounded-full w-full h-full' />
                                 </div>
@@ -64,8 +64,11 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
+
+            <div className='h-40'>
+                    asdfsdf
+                </div>
             
         </>
     )
