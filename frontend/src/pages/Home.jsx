@@ -7,11 +7,13 @@ import homePagePizzaImage from '../assets/images/homePagePizzaImage.png'
 import homeFastDelivery from '../assets/images/homeFastDelivery.png'
 import homeFastFoods from '../assets/images/homeFastFoods.png'
 import homeHealthyFoods from '../assets/images/homeHealthyFoods.png'
+import HomeMenuSideBar from '../components/HomeMenuSideBar'
 
 const Home = () => {
     return (
         <>
-            <div className="flex flex-col justify-around xl:flex-row bg-gradient-to-b from-teal-100">
+        {/* intro-section */}
+            <div className="flex flex-col justify-around xl:flex-row bg-gradient-to-b from-teal-100 py-10">
                 <div className="py-20 px-10 text-center xl:text-start">
                     <div className="bg-teal-200 text-teal-600 rounded-full w-40 p-1 mb-5 inline-flex justify-center">#Special Food 🍕</div>
                     <div className="text-6xl font-bold flex-col space-y-4 mb-4">
@@ -71,6 +73,7 @@ const Home = () => {
                 </div>
             </div>
 
+        {/* about-us section */}
             <div className='flex flex-col-reverse sm:justify-around md:py-20 px-10 xl:flex-row sm:pt-0'>
                 <div className='flex justify-center items-center py-10'>
                     <img src={homePagePizzaImage} alt="loading"  className='rounded-lg bg-gray-100 object-fill'/>
@@ -123,6 +126,11 @@ const Home = () => {
 
                 </div>
 
+            </div>
+
+        {/* home-menu section */}
+            <div className='py-20 px-20'>
+                <HomeMenuSideBar/>
             </div>
 
         </>
