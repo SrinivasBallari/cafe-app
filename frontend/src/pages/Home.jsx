@@ -7,7 +7,7 @@ import homePagePizzaImage from '../assets/images/homePagePizzaImage.png'
 import homeFastDelivery from '../assets/images/homeFastDelivery.png'
 import homeFastFoods from '../assets/images/homeFastFoods.png'
 import homeHealthyFoods from '../assets/images/homeHealthyFoods.png'
-import HomeMenuSideBar from '../components/HomeMenuSideBar'
+import HomeMiniMenuSection from '../components/HomeMiniMenuSection'
 
 const Home = () => {
     return (
@@ -129,9 +129,7 @@ const Home = () => {
             </div>
 
         {/* home-menu section */}
-            <div className='py-20 px-20'>
-                <HomeMenuSideBar/>
-            </div>
+            <HomeMiniMenuSection/>
 
         </>
     )

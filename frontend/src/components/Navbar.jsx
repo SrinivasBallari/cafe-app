@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="flex justify-between p-5 sticky top-0 border-b-2 bg-white">
+            <div className="flex justify-between p-5 sticky top-0 bg-white drop-shadow-lg">
                 <div className="lg:hidden pt-4 size-5 pl-3">
                     <button onClick={() => toggleHam(!isHamActive)}>
                         {!isHamActive ? (
