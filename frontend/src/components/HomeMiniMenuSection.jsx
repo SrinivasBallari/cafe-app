@@ -77,7 +77,7 @@ const HomeMiniMenuSection = () => {
                                             <img src={obj.image} alt="loading" />
                                         </CardDescription>
                                         <CardFooter className="flex justify-end ">
-                                            <Button className='bg-teal-100 text-teal-600 hover:bg-none hover:text-white'>Order Now...</Button>
+                                            <Button className='bg-teal-100 text-teal-600 hover:bg-white hover:text-black'>Order Now...</Button>
                                         </CardFooter>
                                     </Card>
                                 </CarouselItem>
