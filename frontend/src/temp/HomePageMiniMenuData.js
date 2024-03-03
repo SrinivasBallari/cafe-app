@@ -34,6 +34,16 @@ const menuList = {
             name: "Latte",
             price: "4.55"
         },
+        {
+            image: coffee1,
+            name: "Flat White",
+            price: "8.75"
+        },
+        {
+            image: coffee2,
+            name: "Espresso",
+            price: "10.35"
+        },
     ],
     Burger: [
         {
@@ -51,6 +61,16 @@ const menuList = {
             image: burger3,
             name: "Cheese-Burger",
             price: "4.55"
+        },
+        {
+            image: burger1,
+            name: "Fried-Egg Burger",
+            price: "8.75"
+        },
+        {
+            image: burger2,
+            name: "Meat Burger",
+            price: "10.35"
         },
     ],
 
@@ -71,6 +91,16 @@ const menuList = {
             name: "Chicken Noodles",
             price: "4.55"
         },
+        {
+            image: noodles1,
+            name: "Veg-Noodles",
+            price: "8.75"
+        },
+        {
+            image: noodles2,
+            name: "Egg-Noodles",
+            price: "10.35"
+        },
     ],
 
     Pizza : [
@@ -89,6 +119,16 @@ const menuList = {
             image: pizza3,
             name: "Chicken Noodles",
             price: "4.55"
+        },
+        {
+            image: pizza1,
+            name: "Veg-Noodles",
+            price: "8.75"
+        },
+        {
+            image: pizza2,
+            name: "Egg-Noodles",
+            price: "10.35"
         },
     ],
     
@@ -109,6 +149,16 @@ const menuList = {
             name: "Garlic Wraps",
             price: "4.55"
         },
+        {
+            image: wraps1,
+            name: "Veg-Wraps",
+            price: "8.75"
+        },
+        {
+            image: wraps2,
+            name: "Chicken-Wrap",
+            price: "10.35"
+        },
     ],
 
     Desserts : [
@@ -125,8 +175,18 @@ const menuList = {
 
         {
             image: cake3,
-            name: "Belgium-Choco;ate",
+            name: "Belgium-Chocolate",
             price: "4.55"
+        },
+        {
+            image: cake1,
+            name: "Brownie-pie",
+            price: "8.75"
+        },
+        {
+            image: cake2,
+            name: "Dark-Chocolate",
+            price: "10.35"
         },
     ]
 };

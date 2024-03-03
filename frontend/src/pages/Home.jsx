@@ -12,7 +12,7 @@ import HomeMiniMenuSection from '../components/HomeMiniMenuSection'
 const Home = () => {
     return (
         <>
-        {/* intro-section */}
+            {/* intro-section */}
             <div className="flex flex-col justify-around xl:flex-row bg-gradient-to-b from-teal-100 py-10">
                 <div className="py-20 px-10 text-center xl:text-start">
                     <div className="bg-teal-200 text-teal-600 rounded-full w-40 p-1 mb-5 inline-flex justify-center">#Special Food 🍕</div>
@@ -73,10 +73,10 @@ const Home = () => {
                 </div>
             </div>
 
-        {/* about-us section */}
+            {/* about-us section */}
             <div className='flex flex-col-reverse sm:justify-around md:py-20 px-10 xl:flex-row sm:pt-0'>
                 <div className='flex justify-center items-center py-10'>
-                    <img src={homePagePizzaImage} alt="loading"  className='rounded-lg bg-gray-100 object-fill'/>
+                    <img src={homePagePizzaImage} alt="loading" className='rounded-lg bg-gray-100 object-fill' />
                 </div>
                 <div className='flex-col text-center'>
                     <div className="bg-teal-200 text-teal-600 rounded-full w-40 p-1 mb-4 inline-flex justify-center">About Us</div>
@@ -86,7 +86,7 @@ const Home = () => {
                     </div>
                     <div className='flex-col py-5 font-sm'>
                         <div>
-                            It's the perfect dining experience where every dish is crafted 
+                            It's the perfect dining experience where every dish is crafted
                         </div>
                         <div>
                             with fresh, high-quality ingredients and served by friendly staff who go.
@@ -128,9 +128,11 @@ const Home = () => {
 
             </div>
 
-        {/* home-menu section */}
-            <HomeMiniMenuSection/>
-
+            {/* home-menu section */}
+            <div className="bg-teal-200 text-teal-600 rounded-full w-40 p-1.5 flex justify-center display-block m-auto 2xl:mb-10 2xl:mt-2">
+                Menu
+            </div>
+            <HomeMiniMenuSection />
         </>
     )
 }
