@@ -39,7 +39,7 @@ const HomeMiniMenuSection = () => {
 
                 <div className='flex justify-center'>
 
-                    <div className="grid grid-rows-3 grid-flow-col w-80 py-10">
+                    <div className="grid grid-rows-3 grid-flow-col gap-10 2xl:w-10/12 py-10">
                         {Object.keys(menuList).map((item, index) => (
                             <div key={index} className={`flex justify-start items-center w-[160px] h-[60px] ${selectedItem === item ? 'bg-teal-200 rounded-full' : 'bg-none'}`}>
                                 <img
@@ -67,7 +67,7 @@ const HomeMiniMenuSection = () => {
                     >
                         <CarouselContent>
                             {menuList[selectedItem].map((obj, index) => (
-                                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
                                     <Card className="bg-gradient-to-t from-teal-200 drop-shadow-xl">
                                         <CardHeader>
                                             <CardTitle>{obj.name}</CardTitle>

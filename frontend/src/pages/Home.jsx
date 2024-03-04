@@ -133,6 +133,8 @@ const Home = () => {
                 Menu
             </div>
             <HomeMiniMenuSection />
+
+            
         </>
     )
 }
