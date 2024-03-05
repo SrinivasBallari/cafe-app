@@ -63,7 +63,7 @@ const HomeMiniMenuSection = () => {
                         opts={{
                             align: "start",
                         }}
-                        className=""
+                        className="relative"
                     >
                         <CarouselContent>
                             {menuList[selectedItem].map((obj, index) => (

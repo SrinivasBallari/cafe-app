@@ -8,6 +8,7 @@ import homeFastDelivery from '../assets/images/homeFastDelivery.png'
 import homeFastFoods from '../assets/images/homeFastFoods.png'
 import homeHealthyFoods from '../assets/images/homeHealthyFoods.png'
 import HomeMiniMenuSection from '../components/HomeMiniMenuSection'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
     return (
@@ -93,17 +94,17 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='flex flex-col sm:flex-row sm:justify-center'>
-                        <div className='rounded-md py-10 px-10 hover:ring hover:ring-teal-200 gap-2'>
+                        <div className='rounded-md py-10 px-10 gap-2 mt-4'>
                             <img src={homeFastFoods} alt="loading" className='mb-3 inline-flex' />
                             <p className='text-xl font-medium'>Fast Foods</p>
                             <p className='text-sm font-sm text-current'>Fast Foods are crazy in taste</p>
                         </div>
-                        <div className='rounded-md py-10 px-10 hover:ring hover:ring-teal-200 gap-2'>
+                        <div className='rounded-md py-10 px-10 gap-2 mt-2'>
                             <img src={homeHealthyFoods} alt="loading" className='mb-3 inline-flex' />
                             <h3 className='text-xl font-medium'>Healthy Foods</h3>
                             <p className='text-sm font-sm text-current'>Healthy Foods are nutrient-Dense Foods</p>
                         </div>
-                        <div className='rounded-md py-10 px-10 hover:ring hover:ring-teal-200 gap-2'>
+                        <div className='rounded-md py-10 px-10 gap-2'>
                             <img src={homeFastDelivery} alt="loading" className='mb-2 inline-flex' />
                             <h3 className='text-xl font-medium'>Fast Delivery</h3>
                             <p className='text-sm font-sm text-current'>Fast Foods are Time-Saving Foods</p>
@@ -130,10 +131,12 @@ const Home = () => {
 
             {/* home-menu section */}
             <div className="bg-teal-200 text-teal-600 rounded-full w-40 p-1.5 flex justify-center display-block m-auto 2xl:mb-10 2xl:mt-2">
-                Menu
+                Mini-Menu
             </div>
             <HomeMiniMenuSection />
 
+            {/* testimonials section */}
+            <Testimonials/>
             
         </>
     )
