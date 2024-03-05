@@ -9,6 +9,7 @@ import homeFastFoods from '../assets/images/homeFastFoods.png'
 import homeHealthyFoods from '../assets/images/homeHealthyFoods.png'
 import HomeMiniMenuSection from '../components/HomeMiniMenuSection'
 import Testimonials from '../components/Testimonials'
+import HomeFooterSection from '../components/HomeFooterSection'
 
 const Home = () => {
     return (
@@ -138,6 +139,8 @@ const Home = () => {
             {/* testimonials section */}
             <Testimonials/>
             
+            {/* footer section */}
+            <HomeFooterSection/>
         </>
     )
 }

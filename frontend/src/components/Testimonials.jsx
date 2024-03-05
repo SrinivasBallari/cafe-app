@@ -7,7 +7,7 @@ import homeGirl2 from '../assets/images/homeGirl2.png'
 
 const Testimonials = () => {
     return (
-        <div className="flex flex-col xl:flex-row justify-around px-10 py-10 ">
+        <div className="flex flex-col xl:flex-row justify-around px-10 py-20 ">
             <div>
                 <img src={testimonial} alt="loading" className='display-block m-auto mb-4'/>
             </div>
