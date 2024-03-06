@@ -67,8 +67,8 @@ const HomeMiniMenuSection = () => {
                     >
                         <CarouselContent>
                             {menuList[selectedItem].map((obj, index) => (
-                                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
-                                    <Card className="bg-gradient-to-t from-teal-200 drop-shadow-xl">
+                                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2 ">
+                                    <Card className="bg-gradient-to-t from-teal-200 ">
                                         <CardHeader>
                                             <CardTitle>{obj.name}</CardTitle>
                                             <CardDescription>just at {obj.price} $</CardDescription>
