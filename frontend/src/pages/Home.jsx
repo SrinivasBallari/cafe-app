@@ -7,9 +7,9 @@ import homePagePizzaImage from '../assets/images/homePagePizzaImage.png'
 import homeFastDelivery from '../assets/images/homeFastDelivery.png'
 import homeFastFoods from '../assets/images/homeFastFoods.png'
 import homeHealthyFoods from '../assets/images/homeHealthyFoods.png'
-import HomeMiniMenuSection from '../components/HomeMiniMenuSection'
-import Testimonials from '../components/Testimonials'
-import HomeFooterSection from '../components/HomeFooterSection'
+import HomeMiniMenuSection from '../components/Home/HomeMiniMenuSection'
+import Testimonials from '../components/Home/Testimonials'
+import HomeFooterSection from '../components/Home/HomeFooterSection'
 
 const Home = () => {
     return (
@@ -76,7 +76,7 @@ const Home = () => {
             </div>
 
             {/* about-us section */}
-            <div className='flex flex-col-reverse sm:justify-around md:py-20 px-10 xl:flex-row sm:pt-0'>
+            <div className='flex flex-col-reverse sm:justify-around md:py-20 px-10 xl:flex-row sm:pt-0 mb-20'>
                 <div className='flex justify-center items-center py-10'>
                     <img src={homePagePizzaImage} alt="loading" className='rounded-lg bg-gray-100 object-fill' />
                 </div>

@@ -1,6 +1,6 @@
 import registerPageImage from '../../assets/images/registerPageImage.png'
 import yumLogo from '../../assets/images/yumLogo.png'
-import LoginForm from '../../components/LoginForm.jsx'
+import LoginForm from '../../components/Auth/LoginForm'
 
 const Login = () => {
 

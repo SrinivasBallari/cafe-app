@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import menuList from '../temp/HomePageMiniMenuData.js';
-import pizzaAnm from '../assets/images/pizzaAnm.jpg';
-import wrapAnm from '../assets/images/wrapAnm.jpg';
-import noodlesAnm from '../assets/images/noodlesAnm.jpg';
-import coffeeAnm from '../assets/images/coffeeAnm.jpg';
-import cakeAnm from '../assets/images/cakeAnm.jpg';
-import burgerAnm from '../assets/images/burgerAnm.jpg';
-import { Button } from './ui/button.jsx';
+import menuList from '../../temp/HomePageMiniMenuData';
+import pizzaAnm from '../../assets/images/pizzaAnm.jpg';
+import wrapAnm from '../../assets/images/wrapAnm.jpg';
+import noodlesAnm from '../../assets/images/noodlesAnm.jpg';
+import coffeeAnm from '../../assets/images/coffeeAnm.jpg';
+import cakeAnm from '../../assets/images/cakeAnm.jpg'
+import burgerAnm from '../../assets/images/burgerAnm.jpg';
+import { Button } from '../ui/button.jsx';
 import { Card, CardHeader, CardFooter, CardTitle, CardDescription } from "@/components/ui/card"
 import {
     Carousel,

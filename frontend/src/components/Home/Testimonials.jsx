@@ -1,9 +1,9 @@
-import testimonial from '../assets/images/testimonial.png';
-import homePageRandomGuy from '../assets/images/homePageRandomGuy.png'
-import homePageRandomGuyTwo from '../assets/images/homePageRandomGuyTwo.png'
-import homePageRandomGirl from '../assets/images/homePageRandomGirl.png'
-import testimonialDesc from '../assets/images/testimonialDesc.png'
-import homeGirl2 from '../assets/images/homeGirl2.png'
+import testimonial from '../../assets/images/testimonial.png';
+import homePageRandomGuy from '../../assets/images/homePageRandomGuy.png'
+import homePageRandomGuyTwo from '../../assets/images/homePageRandomGuyTwo.png'
+import homePageRandomGirl from '../../assets/images/homePageRandomGirl.png'
+import testimonialDesc from '../../assets/images/testimonialDesc.png'
+import homeGirl2 from '../../assets/images/homeGirl2.png'
 
 const Testimonials = () => {
     return (
