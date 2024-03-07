@@ -1,27 +1,23 @@
-import menuData from '@/temp/MenuData';
-import MenuItemCard from '../components/Menu/MenuItemCard'
-import CategoryFilter from '@/components/Menu/CategoryFilter';
-import PriceFilter from '@/components/Menu/PriceFilter';
-import PopularTags from '@/components/Menu/PopularTags';
 import MenuGrid from '@/components/Menu/MenuGrid';
+import MenuFilter from '@/components/Menu/MenuFilter';
+import HomeFooterSection from '@/components/Home/HomeFooterSection';
 
 const Menu = () => {
     return (
-        <div className='grid grid-cols-5 content-center px-10 py-10 just'>
+        <div>
+            <div className='grid grid-cols-4 xl:grid-cols-5 content-center px-10 py-10 just'>
 
-            <div className='col-span-1 xl:col-span-1 xl:flex xl:flex-col  xl:space-y-2'>
-                <CategoryFilter />
+                <div className='hidden xl:col-span-1 xl:flex xl:flex-col xl:space-y-2'>
+                    <MenuFilter />
+                </div>
 
-                <PriceFilter />
-
-                <PopularTags />
+                <div className='col-span-4 xl:col-span-4'>
+                    <MenuGrid />
+                </div>
             </div>
-
-            <div className='col-span-4'>
-                <MenuGrid/> 
-            </div>
-
+            <HomeFooterSection />
         </div>
+
     )
 }
 

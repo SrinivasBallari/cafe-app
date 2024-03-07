@@ -14,7 +14,7 @@ const PopularTags = () => {
     };
 
     return (
-        <div className="py-5 px-10">
+        <div className="py-5 px-5 w-96 mb-8">
             <p className="text-2xl mb-4">Popular Tags</p>
             {tagsList.map((tag, index) => (
                 <button

@@ -7,8 +7,8 @@ const MenuItemCard = (props) => {
 
     return (
         <div className="flex flex-col gap-4 border-2 border-gray-200 hover:border-teal-400 hover:shadow-2xl rounded-2xl my-3 mx-3">
-            <div className="diplay-block m-auto py-3 w-80 h-80 border-b-2">
-                <img src={props.image} alt="loading"/>
+            <div className="diplay-block m-auto py-3 w-64 h-64 sm:w-80 sm:h-80 border-b-2">
+                <img src={props.image} alt="loading" />
             </div>
             <div className="flex justify-between px-3 font-semibold text-xl">
                 <p>{props.name}</p>

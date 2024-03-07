@@ -3,7 +3,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 
 const CategoryFilter = () => {
     return (
-        <div className="flex flex-col gap-3 px-10 py-5">
+        <div className="flex flex-col gap-3 px-5 py-5 w-80">
             <p className="text-2xl mb-2">Category</p>
             {categoryList.map((category,index) => (
                 <div className="flex items-center space-x-2" key={index}>
