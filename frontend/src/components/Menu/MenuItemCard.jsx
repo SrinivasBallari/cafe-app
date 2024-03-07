@@ -6,9 +6,9 @@ const MenuItemCard = (props) => {
     const [count, setCount] = useState(0);
 
     return (
-        <div className="flex flex-col gap-4 border-2 border-gray-200 hover:border-teal-200 hover:shadow-2xl rounded-2xl my-3 mx-3">
-            <div className="diplay-block m-auto py-3">
-                <img src={props.image} alt="loading" />
+        <div className="flex flex-col gap-4 border-2 border-gray-200 hover:border-teal-400 hover:shadow-2xl rounded-2xl my-3 mx-3">
+            <div className="diplay-block m-auto py-3 w-80 h-80 border-b-2">
+                <img src={props.image} alt="loading"/>
             </div>
             <div className="flex justify-between px-3 font-semibold text-xl">
                 <p>{props.name}</p>
@@ -30,7 +30,7 @@ const MenuItemCard = (props) => {
                     <button className="bg-gray-200 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center"> + </button>
                 </div>
             </div>
-            <button className="bg-teal-200 rounded-full inline-flex justify-center items-center py-2 mb-3 mx-3">
+            <button className="bg-teal-200 rounded-full inline-flex justify-center items-center py-2 mb-3 mx-3 hover:bg-teal-300">
                 Add to cart
             </button>
         </div>
