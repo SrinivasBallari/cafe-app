@@ -4,6 +4,7 @@ import Login from "./pages/auth/Login"
 import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
 import Menu from "./pages/Menu"
+import ContactPage from "./pages/Contact"
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
                     <Route path='/' element = { <Home/>} /> 
                     <Route path='/register' element={ <Register/> } />
                     <Route path='/login' element={ <Login/> } />
-                    <Route path='menu' element={<Menu/>}/>
+                    <Route path='/menu' element={<Menu/>}/>
+                    <Route path='/contact' element={<ContactPage/>}/>
                 </Routes>
         </BrowserRouter>
       </>
