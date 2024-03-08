@@ -12,7 +12,7 @@ const PriceFilter = () => {
     };
 
     return (
-        <div className="flex flex-col py-5 px-5 gap-5 w-80">
+        <div className="flex flex-col py-5 px-5 gap-5 w-64">
             <p className="text-2xl mb-2">Price Range ($)</p>
             <Slider
                 defaultValue={[0, 500]}

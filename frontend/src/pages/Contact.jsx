@@ -53,7 +53,7 @@ const ContactPage = () => {
                             </textarea>
                             <button
                                 type="submit"
-                                className="p-3 pl-5 rounded-full bg-teal-300 "
+                                className="p-3 pl-5 rounded-full bg-teal-300 w-48"
                             >
                                 Send Message
                             </button>
