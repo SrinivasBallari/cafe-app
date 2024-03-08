@@ -35,12 +35,28 @@ const MenuGrid = () => {
         if (currentPage > 1) {
             setCurrentPage(currentPage - 1);
         }
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Optional: Add smooth scrolling animation
+        });
     }
 
     const handleNextPageClick = () => {
         if (currentPage < pages.length) {
             setCurrentPage(currentPage + 1);
         }
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Optional: Add smooth scrolling animation
+        });
+    }
+
+    const setPage = (page) => {
+        setCurrentPage(page);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Optional: Add smooth scrolling animation
+        });
     }
 
     function PaginationSection() {
@@ -55,7 +71,7 @@ const MenuGrid = () => {
                             <PaginationItem
                                 key={index}
                                 className={currentPage == page ? "bg-neutral-200 rounded-md" : ""}>
-                                <PaginationLink onClick={() => setCurrentPage(page)}>
+                                <PaginationLink onClick={() => setPage(page)}>
                                     {page}
                                 </PaginationLink>
                             </PaginationItem>
