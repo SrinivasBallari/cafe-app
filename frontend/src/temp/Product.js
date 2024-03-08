@@ -1,6 +1,10 @@
 import prod1 from "../assets/images/prod1.png";
 import prod2 from "../assets/images/prod2.png";
 import prod3 from "../assets/images/prod3.png";
+import noodles4 from "../assets/images/noodles4.png";
+import cookies1 from "../assets/images/cookies1.png";
+import wrap from "../assets/images/wrap.png";
+import thali1 from "../assets/images/thali1.png";
 import homePageRandomGuy from "../assets/images/homePageRandomGuy.png";
 import homePageRandomGirl from "../assets/images/homePageRandomGirl.png";
 import homePageRandomGuyTwo from "../assets/images/homePageRandomGuyTwo.png";
@@ -15,11 +19,44 @@ const productData = {
         tags: ["Non-Veg", "Mexican", "Breakfast"],
         nutrition: [1200, 56, 134, 67],
     },
-    fiveStarsCount: 1200,
-    fourstarsCount: 1399,
-    threeStarCount: 114,
-    twoStarCount: 30,
-    oneStarCount: 0,
+    mayAlsoLike: [
+        {
+            name: "Chicken Caesar Wrap",
+            rating: 4.5,
+            price: 8.99,
+            image: wrap,
+            category: "Wraps",
+        },
+        {
+            name: "Vegetarian Noodles",
+            rating: 3.8,
+            price: 7.49,
+            image: noodles4,
+            category: "Noodles",
+        },
+        {
+            name: "Mexican Burrito Bowl",
+            rating: 4.2,
+            price: 9.99,
+            image: cookies1,
+            category: "Burrito Bowls",
+        },
+        {
+            name: "North Indian Thali",
+            rating: 4.0,
+            price: 12.99,
+            image: thali1,
+            category: "Thalis",
+        },
+    ],
+    ratings: {
+        totalCount: 2743,
+        fiveStarsCount: 1200,
+        fourstarsCount: 1399,
+        threeStarCount: 114,
+        twoStarCount: 30,
+        oneStarCount: 0,
+    },
     customerReviews: {
         "Alice Johnson": {
             image: homePageRandomGuy,

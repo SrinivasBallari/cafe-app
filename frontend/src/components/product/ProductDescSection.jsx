@@ -50,7 +50,7 @@ const ProductDescSection = ({ productDesc }) => {
                 <div className="grid grid-cols-4 justify-center">
                     {productDesc.nutrition.map((value, index) => (
                         <div className="text-center" key={index}>
-                            <h4 className="text-base font-medium text-default-700 mb-1">{value}</h4>
+                            <h4 className="text-base font-medium text-default-700 mb-1">{nutritionsOrder[index]== 'Calories' ? value : value+' g'}</h4>
                             <h4 className="text-base text-default-700">{nutritionsOrder[index]}</h4>
                         </div>
                     ))}
