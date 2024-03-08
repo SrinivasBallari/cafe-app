@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
 import Menu from "./pages/Menu"
 import ContactPage from "./pages/Contact"
+import Product from "./pages/Product"
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
                     <Route path='/login' element={ <Login/> } />
                     <Route path='/menu' element={<Menu/>}/>
                     <Route path='/contact' element={<ContactPage/>}/>
+                    <Route path='/product' element={<Product/>}/>
                 </Routes>
         </BrowserRouter>
       </>
