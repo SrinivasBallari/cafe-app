@@ -6,7 +6,7 @@ const ProductImagesSection = ({ imagesList }) => {
 
     return (
         <div className="flex flex-col justify-center p-4">
-            <img src={imagesList[selectedImageIndex]} alt="loading" />
+            <img src={imagesList[selectedImageIndex]} alt="loading" className="max-w-full h-full mx-auto"/>
             <div className="flex justify-center items-center p-4 gap-4">
                 {imagesList.map((img, index) => (
                     <button key={index} className="size-24" onClick={() => setSelectedImageIndex(index)}>

@@ -61,25 +61,25 @@ const productData = {
         {   name: "Alice Johnson",
             image: homePageRandomGuy,
             rating: 4.3,
-            comment:"Great food and excellent service. The atmosphere is cozy and inviting. Will definitely come back!",
+            comment:"Great food and excellent service. The atmosphere is cozy and inviting. Will definitely come back! The variety in the menu is impressive, catering to different tastes. The desserts were a delightful surprise, and the overall dining experience was memorable."
         },
         {
             name: "Bob Smith",
             image: homePageRandomGuyTwo,
             rating: 4.9,
-            comment:"Amazing experience! The dishes were flavorful, and the staff was friendly and attentive. Highly recommended.",
+            comment:"Amazing experience! The dishes were flavorful, and the staff was friendly and attentive. Highly recommended. The ambiance is perfect for both casual and special occasions. The attention to detail in each dish is commendable, making it a must-visit restaurant."
         },
         {
             name: "Charlie Davis", 
             image: homePageRandomGirl,
             rating: 3.2,
-            comment:"Decent place. The food was okay, but the service could be improved. Prices are reasonable.",
+            comment:"Decent place. The food was okay, but the service could be improved. Prices are reasonable. The menu could use more vegetarian options. The interior decor is simple yet pleasant. Overall, an average dining experience."
         },
         {
             name: "Diana Martinez",
             image: homePageRandomGuyTwo,
             rating: 4.1,
-            comment:"Enjoyed my meal here. The presentation of the dishes was impressive, and the flavors were satisfying.",
+            comment:"Outstanding restaurant! The menu has a great variety, and everything we tried was delicious. Will be back with friends! The attention to customer satisfaction is evident throughout the dining experience. The chef's specials are a highlight, showcasing culinary creativity. The staff's enthusiasm adds to the overall positive vibe."
         },
     ]
 };

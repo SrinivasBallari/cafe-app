@@ -8,10 +8,10 @@ const ProductDescSection = ({ productDesc }) => {
     const sizes = ['S', 'M', 'L'];
     const nutritionsOrder = ['Calories','Fat','Carbs','Protein']
     return (
-        <div className="flex flex-col px-6">
-            <h2 className="font-medium text-5xl mb-3 text-center">{productDesc.name}</h2>
+        <div className="flex flex-col pt-10 lg:items-start lg:text-start lg:w-4/5">
+            <h2 className="font-medium text-5xl mb-3 text-center min-[900px]:mt-10">{productDesc.name}</h2>
             <p className="text-gray-600 inline-flex justify-center p-2"> {productDesc.rating} ⭐ &nbsp; | &nbsp;  reviews: {productDesc.numberOfReviews}</p>
-            <p className="text-gray-500 py-2 text-center font-normal">{productDesc.text}</p>
+            <p className="text-gray-500 py-2 text-center lg:text-start font-normal">{productDesc.text}</p>
             <div className="flex justify-around gap-4 pt-4 overflow-x-auto">
                 {productDesc.tags.map((tag, index) => (
                     <h4 key={index} className="bg-teal-100 text-teal-600 rounded-full w-40 p-1 mb-4 inline-flex justify-center">{tag}</h4>
@@ -46,10 +46,10 @@ const ProductDescSection = ({ productDesc }) => {
                 </button>
             </div>
             <h4 className="text-lg pb-2 pl-2">Nutrition Facts</h4>
-            <div className="border border-default-200 p-3 rounded-lg mb-4">
+            <div className="border border-gray-300 p-3 rounded-lg mb-4 m-4">
                 <div className="grid grid-cols-4 justify-center">
                     {productDesc.nutrition.map((value, index) => (
-                        <div className="text-center" key={index}>
+                        <div className="text-center p-4" key={index}>
                             <h4 className="text-base font-medium text-default-700 mb-1">{nutritionsOrder[index]== 'Calories' ? value : value+' g'}</h4>
                             <h4 className="text-base text-default-700">{nutritionsOrder[index]}</h4>
                         </div>
