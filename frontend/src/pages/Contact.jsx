@@ -8,7 +8,7 @@ const ContactPage = () => {
     };
     return (
         <>
-            <div className='grid grid-cols-1 sm:grid-cols-2'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 sm:mt-20'>
                 <div className='flex flex-col justify-around items-center p-10 text-center '>
                     <h2 className='mb-4 font-bold text-4xl'>Connect With Us</h2>
                     <p className='font-light text-sm text-gray-500'>Whether you're planning a special event, have dietary preferences, or simply want to chat about our menu, we're here for you. Reach out through the contact details provided and let us make your dining experience at Yum memorable.</p>

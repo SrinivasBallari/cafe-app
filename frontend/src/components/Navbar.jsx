@@ -88,7 +88,7 @@ const Navbar = () => {
                         </svg></SheetTrigger>
                         <SheetContent side='top'>
                             <div className="flex w-full max-w-sm display-block m-auto space-x-2">
-                                <Input type="text" placeholder="search..." className='rounded-full w-64 focus:outline-none font-md bg-teal-100 ring-2 ring-teal-500 border-none' />
+                                <Input type="text" placeholder="search..." className='rounded-full w-64 focus:outline-none font-md bg-teal-100 ring-2 ring-teal-500 border-none placeholder-teal-300' />
                                 <Button type="submit" className='rounded-full'>search</Button>
                             </div>
                         </SheetContent>
@@ -97,7 +97,7 @@ const Navbar = () => {
                     <input
                         type="text"
                         placeholder="Search..."
-                        className="hidden md:block rounded-full w-64 focus:outline-none font-md  pl-4 bg-teal-100 ring-2 ring-teal-500 py-1"
+                        className="hidden md:block rounded-full w-64 focus:outline-none font-md  pl-4 bg-teal-100 ring-2 ring-teal-500 py-1 placeholder-teal-600"
                     />
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
