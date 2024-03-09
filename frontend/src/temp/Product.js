@@ -51,38 +51,37 @@ const productData = {
     ],
     ratings: {
         totalCount: 2743,
-        fiveStarsCount: 1200,
-        fourstarsCount: 1399,
-        threeStarCount: 114,
-        twoStarCount: 30,
-        oneStarCount: 0,
+        fiveStarsCount: 1904,
+        fourStarsCount: 1399,
+        threeStarsCount: 794,
+        twoStarsCount: 300,
+        oneStarsCount: 101,
     },
-    customerReviews: {
-        "Alice Johnson": {
+    customerReviews: [
+        {   name: "Alice Johnson",
             image: homePageRandomGuy,
-            rating: "4",
-            comment:
-                "Great food and excellent service. The atmosphere is cozy and inviting. Will definitely come back!",
+            rating: 4.3,
+            comment:"Great food and excellent service. The atmosphere is cozy and inviting. Will definitely come back!",
         },
-        "Bob Smith": {
+        {
+            name: "Bob Smith",
             image: homePageRandomGuyTwo,
-            rating: "5",
-            comment:
-                "Amazing experience! The dishes were flavorful, and the staff was friendly and attentive. Highly recommended.",
+            rating: 4.9,
+            comment:"Amazing experience! The dishes were flavorful, and the staff was friendly and attentive. Highly recommended.",
         },
-        "Charlie Davis": {
+        {
+            name: "Charlie Davis", 
             image: homePageRandomGirl,
-            rating: "3",
-            comment:
-                "Decent place. The food was okay, but the service could be improved. Prices are reasonable.",
+            rating: 3.2,
+            comment:"Decent place. The food was okay, but the service could be improved. Prices are reasonable.",
         },
-        "Diana Martinez": {
-            image: "no-data",
-            rating: "4",
-            comment:
-                "Enjoyed my meal here. The presentation of the dishes was impressive, and the flavors were satisfying.",
+        {
+            name: "Diana Martinez",
+            image: homePageRandomGuyTwo,
+            rating: 4.1,
+            comment:"Enjoyed my meal here. The presentation of the dishes was impressive, and the flavors were satisfying.",
         },
-    },
+    ]
 };
 
 export default productData;

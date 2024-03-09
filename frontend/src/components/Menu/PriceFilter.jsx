@@ -26,11 +26,11 @@ const PriceFilter = () => {
             {priceList.map((price,index) => (
                 <div className="flex space-x-2" key={index}>
                     <Checkbox id={price} key={index}/>
-                    <label
+                    <h4
                         className="text-sm text-gray-800"
                     >
                         {price}
-                    </label>
+                    </h4>
                 </div>
             ))}
         </div>

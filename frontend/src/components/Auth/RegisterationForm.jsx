@@ -8,7 +8,7 @@ const RegistrationForm = () => {
     return (
         <>
             <form onSubmit={handleRegistration}>
-                <label className="pl-3 text-base text-base">Full Name</label>
+                <h4 className="pl-3 text-base text-base">Full Name</h4>
                 <br />
                 <input
                     type="text"
@@ -16,7 +16,7 @@ const RegistrationForm = () => {
                     className="p-3 m-3 pl-5 rounded-full w-80 lg:w-96 focus:outline-none"
                 />
                 <br />
-                <label className="pl-3 pt-10 text-base text-base">Email</label>
+                <h4 className="pl-3 pt-10 text-base text-base">Email</h4>
                 <br />
                 <input
                     type="email"
@@ -24,7 +24,7 @@ const RegistrationForm = () => {
                     className="p-3 m-3 pl-5 rounded-full w-80 lg:w-96 focus:outline-none"
                 />
                 <br />
-                <label className="pl-3 text-base text-base">Password</label>
+                <h4 className="pl-3 text-base text-base">Password</h4>
                 <br />
                 <input
                     type="password"

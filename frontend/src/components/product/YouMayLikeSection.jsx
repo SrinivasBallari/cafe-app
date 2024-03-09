@@ -5,7 +5,7 @@ const YouMayLike = ({items}) => {
 
     return (
         <div>
-            <label className="font-normal text-xl p-4 ">You may also like </label>
+            <h4 className="font-normal text-xl p-4 ">You may also like </h4>
             <div className='flex flex-col'>
                 {items.map((obj, index) => (
                     <MenuItemCard name={obj.name} image={obj.image} rating={obj.rating} price={obj.price} key={index} />

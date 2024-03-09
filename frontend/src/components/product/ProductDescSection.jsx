@@ -14,11 +14,11 @@ const ProductDescSection = ({ productDesc }) => {
             <p className="text-gray-500 py-2 text-center font-normal">{productDesc.text}</p>
             <div className="flex justify-around gap-4 pt-4 overflow-x-auto">
                 {productDesc.tags.map((tag, index) => (
-                    <label key={index} className="bg-teal-100 text-teal-600 rounded-full w-40 p-1 mb-4 inline-flex justify-center">{tag}</label>
+                    <h4 key={index} className="bg-teal-100 text-teal-600 rounded-full w-40 p-1 mb-4 inline-flex justify-center">{tag}</h4>
                 ))}
             </div>
             <div className="flex gap-4 justify-start p-2 mb-4 items-center">
-                <label className="text-md text-gray-500">Size : </label>
+                <h4 className="text-md text-gray-500">Size : </h4>
                 <div>
                     {sizes.map((size, index) => (
                         <button key={index} className={`w-10 h-10 ${index == selectedSize ? 'bg-teal-100 rounded-full' : ''}`} onClick={() => setSelectedSize(index)}>
@@ -45,7 +45,7 @@ const ProductDescSection = ({ productDesc }) => {
                     </svg>
                 </button>
             </div>
-            <label className="text-lg pb-2 pl-2">Nutrition Facts</label>
+            <h4 className="text-lg pb-2 pl-2">Nutrition Facts</h4>
             <div className="border border-default-200 p-3 rounded-lg mb-4">
                 <div className="grid grid-cols-4 justify-center">
                     {productDesc.nutrition.map((value, index) => (

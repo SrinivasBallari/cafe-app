@@ -20,7 +20,7 @@ const ContactPage = () => {
                         <div className='flex flex-col gap-4 p-10'>
                             <div className='grid grid-cols-1 sm: grid-cols-2 gap-2 max-[1155px]:grid-cols-1'>
                                 <div className='flex flex-col gap-2'>
-                                    <label className="text-base text-base ">First Name</label>
+                                    <h4 className="text-base text-base ">First Name</h4>
                                     <input
                                         type="text"
                                         placeholder="First name"
@@ -28,7 +28,7 @@ const ContactPage = () => {
                                     />
                                 </div>
                                 <div className='flex flex-col gap-2'>
-                                    <label className="text-base text-base">Last Name</label>
+                                    <h4 className="text-base text-base">Last Name</h4>
 
                                     <input
                                         type="text"
@@ -39,13 +39,13 @@ const ContactPage = () => {
 
                             </div>
 
-                            <label className="text-base text-base">Email</label>
+                            <h4 className="text-base text-base">Email</h4>
                             <input
                                 type="Email"
                                 placeholder="Email"
                                 className="p-3 pl-5 rounded-full focus:outline-none mr-0 border border-gray-300 "
                             />
-                            <label className="text-base text-base">Message</label>
+                            <h4 className="text-base text-base">Message</h4>
                             <textarea
                                 placeholder='Enter your message'
                                 className='p-3 pl-5 rounded-2xl h-40 focus:outline-none mr-0 border border-gray-300 '

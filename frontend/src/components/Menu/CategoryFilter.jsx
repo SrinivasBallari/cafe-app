@@ -8,11 +8,11 @@ const CategoryFilter = () => {
             {categoryList.map((category,index) => (
                 <div className="flex items-center space-x-2" key={index}>
                     <Checkbox id={category} />
-                    <label
+                    <h4
                         className="text-sm text-gray-800"
                     >
                         {category}
-                    </label>
+                    </h4>
                 </div>
             ))}
         </div>
