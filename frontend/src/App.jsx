@@ -7,6 +7,7 @@ import Menu from "./pages/Menu"
 import ContactPage from "./pages/Contact"
 import Product from "./pages/Product"
 import CartPage from "./pages/Cart"
+import Checkout from "./pages/Checkout"
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
                     <Route path='/contact' element={<ContactPage/>}/>
                     <Route path='/product' element={<Product/>}/>
                     <Route path='/cart' element={<CartPage/>}/>
-
+                    <Route path='/checkout' element={<Checkout/>}/>
                 </Routes>
         </BrowserRouter>
       </>

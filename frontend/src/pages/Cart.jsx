@@ -21,7 +21,6 @@ const CartPage = () => {
 
                 <button className="border border-gray-600 text-gray-600 rounded-full h-6 w-6 text-md inline-flex items-center justify-center pb-1 hover:bg-gray-300">x</button>
 
-                {/* Item Image */}
                 <img src={item.image} alt={item.name} className="w-20 h-20  mb-4 mx-auto" />
 
 
@@ -39,13 +38,11 @@ const CartPage = () => {
                     </div>
                 </div>
 
-                {/* Item Total */}
                 <div className="flex items-center justify-between mb-2">
                     <span className="text-gray-600">Total:</span>
                     <span>${item.price * item.quantity}</span>
                 </div>
 
-                {/* Item Price */}
                 <div className="flex items-center justify-between">
                     <span className="text-gray-600">Price:</span>
                     <span>${item.price}</span>
