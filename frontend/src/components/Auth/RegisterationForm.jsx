@@ -9,15 +9,12 @@ const RegistrationForm = () => {
         <>
             <form onSubmit={handleRegistration}>
                 <h4 className="pl-3 text-base text-base">Full Name</h4>
-                <br />
                 <input
                     type="text"
                     placeholder="Enter your name"
                     className="p-3 m-3 pl-5 rounded-full w-80 lg:w-96 focus:outline-none"
                 />
-                <br />
-                <h4 className="pl-3 pt-10 text-base text-base">Email</h4>
-                <br />
+                <h4 className="pl-3 text-base text-base">Email</h4>
                 <input
                     type="email"
                     placeholder="Enter your email"
@@ -25,7 +22,6 @@ const RegistrationForm = () => {
                 />
                 <br />
                 <h4 className="pl-3 text-base text-base">Password</h4>
-                <br />
                 <input
                     type="password"
                     placeholder="Enter your password"

@@ -8,9 +8,7 @@ const LoginForm = () => {
     return (
         <>
             <form onSubmit={handleLogin}>
-                <br />
-                <h3 className="pl-3 pt-10 text-base text-base">Email</h3>
-                <br />
+                <h3 className="pl-3 text-base text-base">Email</h3>
                 <input
                     type="email"
                     placeholder="Enter your email"
@@ -18,7 +16,6 @@ const LoginForm = () => {
                 />
                 <br />
                 <h3 className="pl-3 text-base text-base">Password</h3>
-                <br />
                 <input
                     type="password"
                     placeholder="Enter your password"
