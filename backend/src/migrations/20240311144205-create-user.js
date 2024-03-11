@@ -25,12 +25,13 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
         validate: {
-          len: [6, 100] 
+          len: [6, 20],
+          isAlphanumeric: true
         }
       },
       role: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
         defaultValue: 'user'
       },
       createdAt: {
