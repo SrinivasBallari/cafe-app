@@ -21,6 +21,20 @@ const createUser = async (req, res) => {
     }
 };
 
+const deleteUser = async (req,res) => {
+    try {
+        const response = await userService.deleteUser(req.query.id);
+        return res.status(200).json({
+            status: "successfully deleted user",
+            data: response,
+        });
+    } catch (error) {
+        console.log("error in UserController.deleteUser : ", error);
+        return res.status(500).json({ message: "Internal server error" });
+    }
+};
+
 module.exports = {
     createUser,
+    deleteUser
 };

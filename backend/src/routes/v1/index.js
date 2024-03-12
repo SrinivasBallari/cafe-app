@@ -9,4 +9,9 @@ router.post(
     UserController.createUser
 );
 
+router.delete(
+    '/delete',
+    UserController.deleteUser
+);
+
 module.exports = router;

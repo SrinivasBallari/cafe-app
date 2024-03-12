@@ -1,7 +1,6 @@
-const {User} = require('../models/index');
+const { User } = require("../models/index");
 
 class UserRepo {
-
     async create(data) {
         try {
             const user = await User.create(data);
@@ -11,7 +10,18 @@ class UserRepo {
             throw error;
         }
     }
+
+    async delete(id) {
+        try {
+            const user = await User.destroy({
+                where: { id },
+            });
+            return user;
+        } catch (error) {
+            console.log("error occurred in UserRepo.delete: ", error);
+            throw error;
+        }
+    }
 }
 
 module.exports = UserRepo;
-

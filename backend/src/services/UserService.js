@@ -1,3 +1,4 @@
+const { deleteUser } = require('../controllers/UserController');
 const { UserRepo } = require('../repositories/index');
 const userRepo = new UserRepo();
 
@@ -9,6 +10,16 @@ class UserService {
             return user;
         } catch (error) {
             console.log("error occurred in UserService.createUser: ", error);
+            throw error;
+        }
+    }
+
+    async deleteUser(id) {
+        try {
+            const user = await userRepo.delete(id);
+            return user;
+        } catch (error) {
+            console.log("error occurred in UserService.deleteUser: ", error);
             throw error;
         }
     }
