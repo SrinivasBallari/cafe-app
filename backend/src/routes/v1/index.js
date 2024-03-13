@@ -5,9 +5,21 @@ const { UserController } = require('../../controllers/index');
 
 router.post(
     '/signup',
-    AuthMiddleware.validateUserAuthentication,
+    AuthMiddleware.validateUserSignUp,
     UserController.createUser
 );
+
+router.post(
+    '/login',
+    AuthMiddleware.validateUserLogin,
+    UserController.login
+)
+
+router.get(
+    '/isAuthenticated',
+    AuthMiddleware.validateToken,
+    UserController.isAuthenticated
+)
 
 router.delete(
     '/delete',
