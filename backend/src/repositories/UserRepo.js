@@ -1,6 +1,7 @@
 const { User } = require("../models/index");
 
 class UserRepo {
+    
     async create(data) {
         try {
             const user = await User.create(data);

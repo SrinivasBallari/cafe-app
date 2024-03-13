@@ -4,13 +4,13 @@ const { AuthMiddleware } = require('../../middlewares/index');
 const { UserController } = require('../../controllers/index');
 
 router.post(
-    '/signup',
+    '/auth/register',
     AuthMiddleware.validateUserSignUp,
     UserController.createUser
 );
 
 router.post(
-    '/login',
+    '/auth/login',
     AuthMiddleware.validateUserLogin,
     UserController.login
 )
