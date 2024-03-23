@@ -4,7 +4,6 @@ const registerUser = async (username, email, password) => {
     try {
         if(username == '' || email == '' || password == ''){
             alert("All fields are required");
-            
         }
         if(password.length < 6){
             alert("Password must be at least 6 characters long");

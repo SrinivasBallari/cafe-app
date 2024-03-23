@@ -16,10 +16,11 @@ const createUser = async (req, res) => {
 
 const login = async (req,res) => {
     try {
-        const user = await userService.login(req.body.email, req.body.password);
+        const data = await userService.login(req.body.email, req.body.password);
         return res.status(200).json({
             status: "success",
-            data: user,
+            token: data.token,
+            user: data.user,
         });
     } catch (error) {
         console.log("error in UserController.login : ", error);

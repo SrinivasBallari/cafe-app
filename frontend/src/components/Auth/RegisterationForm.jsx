@@ -25,7 +25,7 @@ const RegistrationForm = () => {
             if (error.response.data.message == 'SequelizeUniqueConstraintError') {
                 alert("User is already registered with this email"); 
             }else{
-                alert('Something went wrong !!')
+                alert('password must contain alphabets and numbers only');
             }
         }
     };

@@ -12,6 +12,7 @@ import Testimonials from '../components/Home/Testimonials'
 import HomeFooterSection from '../components/Home/HomeFooterSection'
 
 const Home = () => {
+
     return (
         <>
             {/* intro-section */}

@@ -61,7 +61,10 @@ class UserService {
                 throw({error: "Invalid password"});
             }
             const token = this.#createToken({email:user.email,id:user.id});
-            return token;
+            return {
+                token,
+                user
+            };
         } catch (error) {
             console.log("error occurred in UserService.login: ", error);
             throw error;
