@@ -23,7 +23,8 @@ function App() {
   return (  
       <>
         <BrowserRouter>
-        {renderNavbar()}
+        {/* {renderNavbar()} */}
+        <Navbar/>
                 <Routes>
                     <Route path='/' element = { <Home/>} /> 
                     <Route path='/register' element={ <Register/> } />

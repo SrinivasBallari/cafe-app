@@ -5,14 +5,14 @@ import LoginForm from '../../components/Auth/LoginForm'
 const Login = () => {
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-10 bg-gradient-to-r from-teal-100 h-screen w-screen flex justify-end">
+        <div className="grid grid-cols-1 lg:grid-cols-9 bg-gradient-to-r from-teal-100 h-screen w-full flex justify-end">
 
-            <div className="lg:col-span-4 flex flex-col items-center justify-center ">
+            <div className="lg:col-span-3 flex flex-col items-center justify-center ">
                 <img src={yumLogo} alt="loading" width={170} height={170} className='pb-8'/>
                 <LoginForm/>     
             </div>
             
-            <div className="col-span-6 relative hidden lg:block">
+            <div className="col-span-6 relative  hidden lg:block">
                 <img src={registerPageImage} alt="loading" className="absolute top-0 right-0" />
             </div>
 

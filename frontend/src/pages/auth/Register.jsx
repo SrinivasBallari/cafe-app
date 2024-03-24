@@ -13,7 +13,7 @@ const Register = () => {
             </div>
             
             <div className="col-span-6 relative hidden lg:block">
-                <img src={registerPageImage} alt="loading" className="absolute top-0 right-0" />
+                <img src={registerPageImage} alt="loading" className="absolute top-0 right-0 " />
             </div>
 
         </div>
