@@ -11,7 +11,7 @@ const Menu = () => {
                     <MenuFilter />
                 </div>
 
-                <div className='col-span-4 xl:col-span-4'>
+                <div className='col-span-4 xl:col-span-4 px-14'>
                     <MenuGrid />
                 </div>
             </div>
